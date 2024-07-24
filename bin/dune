@@ -1,0 +1,9 @@
+(executable
+ (public_name opam_nix_pins)
+ (name main)
+ (libraries irmin-fs.unix eio_main))
+
+(env
+ (dev
+  (flags
+   (:standard -w -66-32-33-27-26-69-37))))
